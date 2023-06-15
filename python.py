@@ -52,12 +52,28 @@ books.push(allBooks)
     
 
 
-# {
-#     constructor(author,title,bookDetails){
-#         this.author=author
-#         this.title=author
-#         this.book=book
 
-#         books=[]
-#         let allBooks =LibraryCatalog("Becky","The hood","available")
-#         books.push(allBooks)
+#  pseudo Code 
+# Input
+#  characteristics
+# behaviors
+
+#  output
+#  descriptive string that displys the life span and the animal migration plus its prey
+
+
+# Proces
+# main class
+# 3 subclasses for the `Species`, `Predator`, `Prey`
+# methods
+
+class WildLife:
+  def__init__(self,diet, lifeSpan, migration,carnivorous):
+      self.diet=diet
+      self.lifeSpan=lifeSpan
+      self.migration=migration 
+      self.carnivorous=scarnivorous
+
+def commonCharacter()
+     super().__init__(diet, lifeSpan, migration,carnivorous)
+        print(f"${self.diet}")

@@ -69,6 +69,11 @@ removeBook(){
         
     }
 }
+addNewBook(book) {
+    this.books.push(book);
+    
+
+    }
 
 }
 let mybooks=new LibraryCatalog("becky","Jguar","available");
@@ -144,6 +149,9 @@ class migrationPrediction{
         else{
             console.log(`"${this.lifeSpan} for the animal `)
     }
+
+}
+
 
 }
 
